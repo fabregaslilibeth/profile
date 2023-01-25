@@ -1,0 +1,1 @@
+https://github.com/lucpotage/nuxt-github-pages
