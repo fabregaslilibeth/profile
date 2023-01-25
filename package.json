@@ -15,5 +15,5 @@
   "dependencies": {
     "firebase": "^9.16.0",
     "gh-pages": "^5.0.0"
-  },
+  }
 }
