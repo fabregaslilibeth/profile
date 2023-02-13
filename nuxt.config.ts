@@ -6,4 +6,14 @@ export default defineNuxtConfig({
       baseURL: 'https://fabregaslilibeth.github.io/profile/',
     },
   },
+  build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
+    },
+  },
 });
