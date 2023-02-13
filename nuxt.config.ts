@@ -1,7 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
-  router: {
-    base: "/profile/",
+  runtimeConfig: {
+    public: {
+      baseURL: 'https://fabregaslilibeth.github.io/profile/',
+    },
   },
 });
