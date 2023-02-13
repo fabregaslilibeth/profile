@@ -1,17 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
-  },
-  router: {
-    base: "/profile/",
-  },
-});
+ modules: [
+    '@nuxtjs/tailwindcss'
+],
+})
